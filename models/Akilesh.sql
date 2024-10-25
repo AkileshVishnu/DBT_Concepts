@@ -1,0 +1,1 @@
+select * from DB_AGENTOPS.SC_ECOMM.USERS
