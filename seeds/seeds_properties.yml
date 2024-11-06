@@ -1,0 +1,11 @@
+seeds:
+   - name: ctry3
+     config:
+       full_refresh: True
+       column_types:
+         ID: int
+   - name: ctryyy
+     config:
+       full_refresh: True
+       column_types:
+         ID: int
