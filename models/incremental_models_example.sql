@@ -8,3 +8,4 @@ SELECT * FROM {{source("Data Sources",'Orders')}} t1
 WHERE
 t1.date > (SELECT MAX(DATE) from {{this}})
 {% endif %}
+
