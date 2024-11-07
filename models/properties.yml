@@ -1,0 +1,24 @@
+sources:
+  - name: "Data Sources"
+    database: DB_AGENTOPS
+    schema: SC_ECOMM
+    tables:
+      - name: USERS
+      - name: Sales
+      - name: PAYMENT_MODES
+      - name: Orders
+      - name: user_logins
+
+
+models:
+  - name: "Akilesh"
+    config:
+      materialized: table
+    columns:
+      - name: ID
+        tests:
+          - unique
+          - not_null              
+  - name: "Akilesh2"
+    config:
+      materialized: 'view'
