@@ -10,14 +10,15 @@ sources:
       - name: user_logins
 
 
-
-
-
-
 models:
   - name: "Akilesh"
     config:
       materialized: table
+    columns:
+      - name: ID
+        tests:
+          - unique
+          - not_null              
   - name: "Akilesh2"
     config:
       materialized: 'view'
