@@ -1,0 +1,6 @@
+sources:
+  - name: raw_tables
+    database: DB_AGENTOPS
+    schema: raw
+    tables:
+      - name: raw_payments
